@@ -1,0 +1,39 @@
+body {
+background-color: orange;
+
+}
+
+h1 {
+color: red;
+background-color: rebeccapurple;
+}
+
+#Show_Sketch {
+float: right;
+background-color: darkgoldenrod;
+}
+
+P {
+padding-top:  10px;
+font-size: 25px;
+color: royalblue;
+}
+
+#Clear_Sketch {
+background-color: lawngreen;
+color: tomato;
+}
+
+canvas{
+border: 5px solid cyan;
+border-radius: 20px;
+animation-name: example;
+animation-duration: 4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+
+@keyframes example{
+from{box-shadow : 5px 10px 100px cyan;}
+to{box-shadow : 5px 10px 100px  yellow;}
+}
